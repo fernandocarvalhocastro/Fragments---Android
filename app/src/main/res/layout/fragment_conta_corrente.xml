@@ -1,0 +1,20 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="rm76349.fiap.com.br.bancoonline.ContaCorrenteFragment"
+    android:background="#0000FF">
+
+    <Button
+        android:id="@+id/btnSaldo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lblsaldo"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/btnSaldo"
+        android:text="@string/lblExtrato"/>
+
+</RelativeLayout>

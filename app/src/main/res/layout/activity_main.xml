@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="rm76349.fiap.com.br.bancoonline.MainActivity"
+    >
+    <FrameLayout
+        android:id="@+id/frgPrincipal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+    <ListView
+        android:id="@+id/lstMenu"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:entries="@array/items_menu"
+        android:background="#25da53"
+        android:divider="#30633a"
+        android:dividerHeight="2dp"/>
+</android.support.v4.widget.DrawerLayout>

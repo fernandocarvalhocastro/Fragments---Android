@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">BancoOnline</string>
+    <string name="lblsaldo">Saldo</string>
+    <string name="lblExtrato">Extrato</string>
+    <string name="lblAplicar">Aplicar</string>
+    <string name="lblResgatar">Resgatar</string>
+    <string name="lblContaCorrente">Conta Corrente</string>
+    <string name="lblAplicacao">Aplicação</string>
+
+    <string-array name="items_menu">
+        <item>Conta Corrente</item>
+        <item>Aplicação</item>
+        <item>Transferência</item>
+        <item>Sair</item>
+    </string-array>
+</resources>

@@ -1,0 +1,21 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="rm76349.fiap.com.br.bancoonline.AplicacaoFragment"
+    android:background="#00FFFF">
+
+    <Button
+        android:id="@+id/btnAplicar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lblAplicar"/>
+
+    <Button
+        android:id="@+id/btnResgatar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/btnAplicar"
+        android:text="@string/lblResgatar"/>
+
+</RelativeLayout>
